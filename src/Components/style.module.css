@@ -1,0 +1,58 @@
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.backLink {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.backLink:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+.coverImage {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.loading {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin: 50px 0;
+}
